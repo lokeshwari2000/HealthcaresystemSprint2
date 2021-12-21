@@ -1,0 +1,27 @@
+DIAGNOSTIC TEST CONTROLLER:-
+
+POST:Test Creation
+ http://localhost:9091/DiagnosticTest/testCreation
+ Body: {
+     "testName":"blood test",
+      "testPrice":"380",
+      "normalValue":"954",
+       "units":"54"
+       }
+       
+   GET: get all the test from table
+   http://localhost:9091/DiagnosticTest/getAll
+   
+   
+  PUT: to update test details
+   http://localhost:9091/DiagnosticTest/testUpdate
+   Body:{    
+      "id": 1,
+    "testName": "cardiography",
+    "testPrice": 380.0,
+    "normalValue": "954",
+    "units": "54"
+ }
+       
+       insert into Diagnostic_Test values('10','200','bloodtest','1600','24');
+        insert into Diagnostic_Test values('11','300','sugartest','2000','29');

@@ -1,0 +1,52 @@
+use mydatabase;
+
+http://localhost:9080/Diagnostic_center/viewAllDiagnosticCenter
+{
+        
+        "name": "nirmal",
+        "contactno": "9848910810",
+        "address": "uppal",
+        "contactEmail": "nirmal@gmail.com"
+    },
+    {
+       
+        "name": "satya",
+        "contactno": "6304927942",
+        "address": "attapur",
+        "contactEmail": "satya@gmail.com"
+    },
+    {
+        
+        "name": "likitha",
+        "contactno": "1222345",
+        "address": "abcd",
+        "contactEmail": "likitha@gmail.com"
+    }
+    
+    http://localhost:9080/Diagnostic_center/add
+    {
+    
+    "name": "linux",
+    "contactno": "6308738392",
+    "address": "Kukatpally",
+    "contactEmail": "linux@gmail.com"
+}
+
+http://localhost:9080/Diagnostic_center/getdiagnosticCenterById/11
+ "id": 11,
+    "name": "satya",
+    "contactno": "6304927942",
+    "address": "attapur",
+    "contactEmail": "satya@gmail.com"
+    
+    http://localhost:9080/Diagnostic_center/delete/10
+    {
+    "id": 10,
+    "name": "nirmal",
+    "contactno": "9848910810",
+    "address": "uppal",
+    "contactEmail": "nirmal@gmail.com"
+}
+insert  into Diagnostic_Center values('10','uppal','nirmal@gmail.com','9848918918','nirmal');
+insert  into Diagnostic_Center values('11','mbnr','satya@gmail.com','7849920283','satya');
+ insert  into Diagnostic_Center values('12','kukatpally','vijaya@gmail.com','985775728276','vijaya');

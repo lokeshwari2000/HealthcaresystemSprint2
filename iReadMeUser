@@ -1,0 +1,21 @@
+GET : To check whether criteria is matching or not 
+http://localhost:9091/Authenticate/Check
+
+POST:To add user to the User_Table
+http://localhost:9091/Authenticate/addUser
+{
+
+    "username":"solgh",
+    "password":"prt12345678",
+    "role":"patient"
+}
+
+
+DELETE:To remove user from the User_Table
+http://localhost:9091/Authenticate/remove
+{
+    "username":"solgh",
+    "password":"prt12345678",
+    
+}
+

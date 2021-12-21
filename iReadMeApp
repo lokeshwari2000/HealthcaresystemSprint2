@@ -1,0 +1,23 @@
+POST : localhost:9080/Appointment/addAppointment
+Body :- 
+{
+	"id":"1",
+	"appointmentDate":"2021-12-02"
+}
+
+///////////////////////////////////////////////////////////////////////
+
+PUT : localhost:9080/Appointment/updateAppointment
+Body :- 
+{
+	"id":"1",
+	"appointmentDate":"2021-10-13"
+}
+
+////////////////////////////////////////////////////////////////////////
+
+DELETE : localhost:9080/Appointment/removeAppointment
+Body :- 
+{
+	"appointmentDate":"2021-10-13"
+}

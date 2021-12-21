@@ -1,0 +1,2 @@
+insert into Patient values('10','23','female','likitha','98483930939');
+insert into Patient values('11','28','male','venkatsai','98483930939');
